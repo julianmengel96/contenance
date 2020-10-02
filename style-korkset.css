@@ -1,0 +1,169 @@
+.image-product {
+    width: 100%;
+    border-style: solid;
+    border-color: #212121;
+}
+
+.image-product-small {
+    border-style: solid;
+    border-color: #212121;
+    width: 45%;
+}
+
+.image-product-small-no {
+    border-style: solid;
+    border-color: white;
+    width: 45%;
+}
+
+.image-product-small-right {
+    border-style: solid;
+    border-color: #212121;
+    width: 45%;
+    margin-left: auto;
+}
+
+.image-product-small-right-no {
+    border-style: solid;
+    border-color: white;
+    width: 45%;
+    margin-left: auto;
+}
+
+.product-container {
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-container-small {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.product-info {
+    background-color: #212121;
+    width: 45%;
+    margin-left: auto;
+    border-style: solid;
+    border-color: #212121;
+}
+
+.product-info-no {
+    background-color: #212121;
+    width: 45%;
+    margin-left: auto;
+    border-style: solid;
+    border-color: #212121;
+}
+
+.product-info-left {
+    background-color: #212121;
+    width: 45%;
+    border-style: solid;
+    border-color: #212121;
+}
+
+.product-info-left-no {
+    background-color: #212121;
+    width: 45%;
+    border-style: solid;
+    border-color: #212121;
+}
+
+.title-product {
+    font-family: 'PT Sans';
+    font-size: 17px;
+    color: #212121;
+    font-weight: 700;
+}
+
+.info-title {
+    font-family: 'PT Sans';
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.info-title-list {
+    font-family: 'PT Sans';
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.subtitle-product {
+    font-family: 'PT Sans';
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.info-text {
+    font-family: 'PT Sans';
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.info-list {
+    font-family: 'PT Sans';
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    margin: 20px;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.amazon-link {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .product-container-small {
+        flex-direction: column;
+    }
+    .image-product-small {
+        width: 100%;
+    }
+    .image-product-small-right {
+        width: 100%;
+    }
+    .image-product-small-right-no {
+        width: 100%;
+        border: none;
+    }
+    .image-product-small-no {
+        width: 100%;
+        border: none;
+    }
+    .product-info {
+        width: 100%;
+    }
+    .product-info-no {
+        width: 100%;
+        border: none;
+    }
+    .product-info-left {
+        width: 100%;
+        order: 2;
+    }
+    .product-info-left-no {
+        width: 100%;
+        order: 2;
+        border: none;
+    }
+}
