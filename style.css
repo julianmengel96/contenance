@@ -255,8 +255,8 @@ body {
 }
 
 #content {
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -319,7 +319,7 @@ body {
     }
     #content {
         top: 90px;
-        padding: 20px;
+        margin: 20px;
     }
     #footer {
         height: 440px;
