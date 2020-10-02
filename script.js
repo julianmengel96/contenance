@@ -18,6 +18,7 @@ $(document).ready(function(){
         $("#closeitem").hide();
         $(".menumobile").removeClass("menuselected");
         $(".opacitylayer").removeClass("opacitylayer-active");
+        $("body").css("overflow", "auto");
     })
 
     $("#link-products-mobile").click(function() {
