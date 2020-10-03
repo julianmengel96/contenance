@@ -47,14 +47,13 @@ body {
 #link-behind {
     height: 45px;
     display: inline-block;
-    padding-left: 70px; 
 }
 #link-products {
     text-align: left;
     padding-left: 20px;
     height: 45px;
     display: inline-block;
-    width: 180px;
+    width: 160px;
 }
 .arrow {
     border: solid white;
@@ -279,6 +278,14 @@ body {
     }
     #header {
         height: 90px;
+    }
+    #container-header {
+        width: 250px;
+    }
+    #image-logo {
+        height: 40px;
+        margin-top: 20px;
+        margin-right: 10px;
     }
     #link-home {
         margin-top: 23px;
