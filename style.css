@@ -287,11 +287,9 @@ body {
     #footer {
         height: 440px;
         text-align: center;
+        flex-direction: column;
     }
     .footer-colomn {
         width: 100%;
-    }
-    #footer-left {
-        margin-left: 0;
     }
   }
