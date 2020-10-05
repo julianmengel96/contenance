@@ -34,12 +34,19 @@
     width: 45%;
     border-style: solid;
     border-color: #212121;
+    padding-top: 100%;
+    position: relative;
 }
 .product-info-right {
     margin-left: auto;
 }
 .product-info-amazon {
     width: 100%;
+    padding-top: 0;
+}
+.info-container {
+    position: absolute;
+    top: 0;
 }
 .info-title {
     font-size: 17px;
