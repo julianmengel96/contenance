@@ -333,6 +333,8 @@ body {
         flex-direction: column;
         height: 600px;
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
     #image-logo-footer {
         margin: 10px;
