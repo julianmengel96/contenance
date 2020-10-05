@@ -93,7 +93,10 @@
     display: inline-block;
     padding: 10px;
     padding-left: 30px;
+    text-align: center;
+    width: 100%;
 }
+
 @media only screen and (max-width: 900px) {
     .info-title {
         padding-top: 10px;
