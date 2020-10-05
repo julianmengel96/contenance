@@ -122,6 +122,9 @@
         order: 2;
         padding-top: 100%;
     }
+    .product-info-amazon {
+        padding-top: 0;
+    }
     .buy-amazon {
         padding-left: 15px;
     }
