@@ -14,7 +14,9 @@
     color: white;
 }
 .parallax-text {
-    padding: 100px;
+    padding: 90px;
+    padding-left: 300px;
+    padding-right: 300px;
     font-size: 25px;
 }
 #parallax1  {
