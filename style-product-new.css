@@ -171,4 +171,9 @@
         padding-top: 0;
         padding-bottom: 0;
     }
+    .container-product-amazon {
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: white;
+    }
 }
