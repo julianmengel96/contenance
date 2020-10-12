@@ -1,9 +1,10 @@
 .container-contenance {
     width: 100%;
+    position: relative;
 }
 .parallax {
     /* Set a specific height */
-    height: 500px;
+    height: 400px;
     width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -36,7 +37,15 @@
 #parallax4  {
     background-image: url("./media/elefant5.jpg");
 }
-@media only screen and (max-width: 820px) {
+#text-contenance {
+    background-color: white;
+    font-size: 17px;
+    color: #212121;
+    font-weight: 700;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
     .parallax-text {
         margin-left: 50px;
         margin-right: 50px;
@@ -46,6 +55,7 @@
 @media only screen and (max-width: 820px) {
     .parallax {
       background-attachment: scroll;
+      height: 500px;
     }
     .parallax-text {
         padding: 25px;

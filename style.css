@@ -310,6 +310,9 @@ body {
 }
 
 @media only screen and (max-width: 820px) {
+    #content {
+        padding-bottom: 0;
+    }
     #menu {
         display: none;
     }
