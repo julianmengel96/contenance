@@ -115,6 +115,9 @@
     background-color: #212121;
     padding: 50px;
 }
+.buy-mobile {
+    display: none;
+}
 
 @media only screen and (max-width: 900px) {
     .info-title {
@@ -175,5 +178,12 @@
         border-top-style: solid;
         border-bottom-style: solid;
         border-color: white;
+    }
+    #buy-pc {
+        display: none;
+    }
+    .buy-mobile {
+        display: block;
+        border: none;
     }
 }
