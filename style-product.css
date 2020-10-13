@@ -18,9 +18,11 @@
     flex-direction: column;
 }
 .image-product {
-    width: 100%;
     border-style: solid;
     border-color: #212121;
+    object-fit: contain;
+    width: 100%;
+    box-sizing: border-box;
 }
 .image-product-small {
     width: 45%;
@@ -32,9 +34,10 @@
 .product-info {
     background-color: #212121;
     width: 45%;
-    border-style: solid;
+    position: relative;
     border-color: #212121;
     position: relative;
+    box-sizing: border-box;
 }
 .product-info-right {
     margin-left: auto;
@@ -42,11 +45,6 @@
 .product-info-amazon {
     width: 100%;
     padding-top: 0;
-}
-.info-container {
-    float: left;
-    padding-top: 100%;
-    width: 0;
 }
 .info-title {
     font-size: 17px;
@@ -61,6 +59,8 @@
     font-size: 16px;
     font-weight: 500;
     padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .info-text {
     font-size: 15px;
@@ -96,6 +96,28 @@
     text-align: center;
     width: 100%;
 }
+.bullet-head {
+    width: 100%;
+    text-align: center;
+    
+}
+.bullet-body {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bullet-body-last {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#image-sicherheit {
+    background-color: #212121;
+}
+.buy-mobile {
+    display: none;
+}
 
 @media only screen and (max-width: 900px) {
     .info-title {
@@ -112,6 +134,16 @@
     }
 }
 @media only screen and (max-width: 820px) {
+    #image-sicherheit {
+       
+    }
+    .title-product {
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .product-info-amazon {
+        padding-top: 20px;
+    }
     .container-product-small {
         flex-direction: column;
     }
@@ -121,14 +153,28 @@
     .image-product-small-right {
         width: 100%;
     }
+    .image-product {
+        border: none;
+    }
     .product-info {
         width: 100%;
         order: 2;
-    }
-    .product-info-amazon {
-        padding-top: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: none;
     }
     .buy-amazon {
         padding-left: 15px;
+    }
+    .container-product {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #buy-pc {
+        display: none;
+    }
+    .buy-mobile {
+        display: block;
+        border: none;
     }
 }
