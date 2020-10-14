@@ -82,7 +82,17 @@ body {
     opacity: 1;
     height: 220px;  
 }
+.dropdown-active {
+    transition: visibility 0s, opacity 0s, height 0.4s;
+    visibility: visible;
+    opacity: 1;
+    height: 220px;  
+}
 .dropdown:hover .arrow {
+    transform: rotate(-135deg);
+    top: 8px;
+}
+.arrow-active {
     transform: rotate(-135deg);
     top: 8px;
 }

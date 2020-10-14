@@ -23,7 +23,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 900px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #parallax1  {
     background-image: url("./media/elefant2.jpg");
@@ -39,9 +39,8 @@
 }
 #text-contenance {
     background-color: white;
-    font-size: 17px;
+    font-size: 20px;
     color: #212121;
-    font-weight: 700;
     padding: 50px;
 }
 
@@ -58,6 +57,10 @@
       height: 500px;
     }
     .parallax-text {
-        padding: 25px;
+        padding: 35px;
+        margin: 0;
+    }
+    #text-contenance {
+        padding: 35px;
     }
   }
