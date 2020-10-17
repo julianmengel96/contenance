@@ -165,7 +165,8 @@
         border: none;
     }
     .buy-amazon {
-        padding-left: 15px;
+        padding: 10px;
+        padding-left: 10px;
     }
     .container-product {
         padding-top: 0;
