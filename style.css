@@ -248,7 +248,8 @@ body {
 }
 #image-home {
     width: 100%;
-    height: 550px;
+    height: auto;
+    min-height: 650px;
     object-fit: cover;
 }
 #footer-container {
