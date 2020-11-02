@@ -249,7 +249,7 @@ body {
 #image-home {
     width: 100%;
     height: auto;
-    min-height: 650px;
+    height: 550px;
     object-fit: cover;
 }
 #footer-container {
